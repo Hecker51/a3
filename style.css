@@ -1,0 +1,41 @@
+body
+{background-color: black;
+color: white;
+
+
+}
+
+.img-responsive {
+    width: 3250px; 
+    height: 350px; 
+ 
+}
+.resultado {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .resultado h4 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .resultado hr {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+  }
+  
+  .resultado span {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .resultado b {
+    color: #222;
+  }

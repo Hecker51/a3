@@ -1,0 +1,389 @@
+<html>
+<head>
+
+    <title>App de Identificação de Imagem em Tempo Real</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+
+
+  <body>
+<div>
+   
+<ol>
+ <li class="col-sm-4 col-xs-12" >
+
+        <b>imagem 1</b>
+        <img src="3x3.jpeg"class="img-responsive"  >
+    </li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>cubo magico 3x3</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    resultado no <b>Modelo MobileNet</b>:
+    <span>holofote</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4>Resultado:Google lens</h4>
+<hr>    
+<h4></h4>
+</div>
+
+
+
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 2</b>
+    <img src="2x2.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>mirror block 2x2</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span>holofote</span>
+</h5>
+
+<div class="col-xs-12 resultado">   
+<h4>Resultado:Google lens</h4>
+<hr>    
+</div>
+
+
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 3</b>
+    <img src="chadrez.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>tabuleiro de xadrez</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span>ábaco</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4>Resultado:Google lens</h4>
+<hr>    
+<h4></h4>
+</div>
+
+
+
+
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 4</b>
+    <img src="correttivo.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>corretivo</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span>holofote</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4>Resultado:Google lens</h4>
+<hr>    
+<h4></h4>
+</div>
+
+
+
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 5</b>
+    <img src="grampeador.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>grampeador</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span>sapato de correr</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4>Resultado:Google lens</h4>
+<hr>    
+<h4></h4>
+</div>
+
+
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 6</b>
+    <img src="K9.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>celular lg k9</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span>
+isqueiro</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4>Resultado:Google lens</h4>
+<hr>    
+<h4></h4>
+</div>
+
+
+
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 7</b>
+    <img src="lixo.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>lixeira londres</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span> fagote</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4>Resultado:Google lens</h4>
+<hr>    
+<h4></h4>
+</div>
+
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 8</b>
+    <img src="megamix.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>mega mix 3x3</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span>mochila</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4>Resultado:Google lens</h4>
+<hr>    
+<h4></h4>
+</div>
+
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 9</b>
+    <img src="suporte.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>suporte fone readragon</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span>guitarra</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4>Resultado:Google lens</h4>
+<hr>    
+<h4></h4>
+</div>
+
+
+<li class="col-sm-4 col-xs-12" >
+
+    <b>imagem 10</b>
+    <img src="telefone.jpeg"class="img-responsive"  >
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Google Lens</b>:
+<span>telefone intelbras</span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+resultado no <b>Modelo MobileNet</b>:
+<span>microfone</span>
+</h5>
+
+<div class="col-xs-12 resultado"> 
+<h4 id="result">Resultado:Google lens</h4>
+<hr>    
+<h1><B>GOOGLE LENS WIN EZ EASY WIN 
+    
+    
+    
+    
+    
+    
+    
+    
+    10 X 00
+
+    
+    
+    
+    
+    
+    
+    
+</B></h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ol>
+
+
+</div>
+  </body>
+  </html>
